@@ -1,0 +1,51 @@
+body{
+  background: rgb(226, 196, 157);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+header{
+    background-color: rgb(196, 138, 68);
+    color: white;
+    text-align: center;
+    padding: 2%;
+    font-size: 3ch;
+}
+section{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+figure{
+    height: 485px;
+    width: 487px;
+}
+#img1{
+    background-image: url('../imagens/chewbacca.jpg');
+    height: 400px;
+    width: 401px;
+}
+#img1:active{
+    background-image: url('../imagens/Cosplay1.jpg');
+    height: 400px;
+    width: 401px;
+}
+.texto{
+    position: absolute;
+    top: 630px;
+    left: 240px;
+}
+#img2{
+    background-image: url('../imagens/tartarugas-ninja.jpg');
+    height: 400px;
+    width: 713px;
+}
+#img2:active{
+    background-image: url('../imagens/cosplay2.jpg');
+    height: 400px;
+    width: 713px;
+}
+.texto2{
+    position: absolute;
+    top: 630px;
+    left: 940px;
+}
+
